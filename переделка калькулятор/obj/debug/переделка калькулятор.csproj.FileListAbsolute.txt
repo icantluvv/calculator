@@ -1,0 +1,50 @@
+C:\Users\Серёжа\source\repos\переделка калькулятор\переделка калькулятор\bin\Debug\переделка калькулятор.exe.config
+C:\Users\Серёжа\source\repos\переделка калькулятор\переделка калькулятор\bin\Debug\переделка калькулятор.exe
+C:\Users\Серёжа\source\repos\переделка калькулятор\переделка калькулятор\bin\Debug\переделка калькулятор.pdb
+C:\Users\Серёжа\source\repos\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.csproj.AssemblyReference.cache
+C:\Users\Серёжа\source\repos\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.csproj.SuggestedBindingRedirects.cache
+C:\Users\Серёжа\source\repos\переделка калькулятор\переделка калькулятор\obj\Debug\MainWindow.g.cs
+C:\Users\Серёжа\source\repos\переделка калькулятор\переделка калькулятор\obj\Debug\App.g.cs
+C:\Users\Серёжа\source\repos\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор_MarkupCompile.cache
+C:\Users\Серёжа\source\repos\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор_MarkupCompile.lref
+C:\Users\Серёжа\source\repos\переделка калькулятор\переделка калькулятор\obj\Debug\MainWindow.baml
+C:\Users\Серёжа\source\repos\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.g.resources
+C:\Users\Серёжа\source\repos\переделка калькулятор\переделка калькулятор\obj\Debug\переделка_калькулятор.Properties.Resources.resources
+C:\Users\Серёжа\source\repos\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.csproj.GenerateResource.cache
+C:\Users\Серёжа\source\repos\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.csproj.CoreCompileInputs.cache
+C:\Users\Серёжа\source\repos\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.exe
+C:\Users\Серёжа\source\repos\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.pdb
+C:\Users\Серёжа\Desktop\переделка калькулятор\переделка калькулятор\bin\Debug\переделка калькулятор.exe.config
+C:\Users\Серёжа\Desktop\переделка калькулятор\переделка калькулятор\bin\Debug\переделка калькулятор.exe
+C:\Users\Серёжа\Desktop\переделка калькулятор\переделка калькулятор\bin\Debug\переделка калькулятор.pdb
+C:\Users\Серёжа\Desktop\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.csproj.AssemblyReference.cache
+C:\Users\Серёжа\Desktop\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.csproj.SuggestedBindingRedirects.cache
+C:\Users\Серёжа\Desktop\переделка калькулятор\переделка калькулятор\obj\Debug\MainWindow.g.cs
+C:\Users\Серёжа\Desktop\переделка калькулятор\переделка калькулятор\obj\Debug\App.g.cs
+C:\Users\Серёжа\Desktop\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор_MarkupCompile.cache
+C:\Users\Серёжа\Desktop\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор_MarkupCompile.lref
+C:\Users\Серёжа\Desktop\переделка калькулятор\переделка калькулятор\obj\Debug\MainWindow.baml
+C:\Users\Серёжа\Desktop\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.g.resources
+C:\Users\Серёжа\Desktop\переделка калькулятор\переделка калькулятор\obj\Debug\переделка_калькулятор.Properties.Resources.resources
+C:\Users\Серёжа\Desktop\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.csproj.GenerateResource.cache
+C:\Users\Серёжа\Desktop\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.csproj.CoreCompileInputs.cache
+C:\Users\Серёжа\Desktop\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.exe
+C:\Users\Серёжа\Desktop\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.pdb
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.csproj.AssemblyReference.cache
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.csproj.SuggestedBindingRedirects.cache
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\obj\Debug\MainWindow.g.cs
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\obj\Debug\App.g.cs
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор_MarkupCompile.cache
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор_MarkupCompile.lref
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.exe
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.pdb
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\bin\Debug\переделка калькулятор.exe.config
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\bin\Debug\переделка калькулятор.exe
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\bin\Debug\переделка калькулятор.pdb
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\obj\Debug\MainWindow.baml
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.g.resources
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\obj\Debug\переделка_калькулятор.Properties.Resources.resources
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.csproj.GenerateResource.cache
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\obj\Debug\переделка калькулятор.csproj.CoreCompileInputs.cache
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\obj\Debug\Window2.g.cs
+C:\Users\Серёжа\Desktop\проект инфа\переделка калькулятор\переделка калькулятор\obj\Debug\Window2.baml
