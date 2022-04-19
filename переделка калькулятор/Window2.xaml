@@ -1,0 +1,102 @@
+﻿<Window x:Name="window_matrica" x:Class="переделка_калькулятор.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:переделка_калькулятор"
+        mc:Ignorable="d"
+        Title="Matrices" Height="500" Width="500" Icon="/1024px-Calculator_Flat_Icon_Vector.svg.png" ResizeMode="CanMinimize" HorizontalAlignment="Center" VerticalAlignment="Center" WindowStartupLocation="CenterScreen" WindowStyle="None" KeyDown="window_matrica_KeyDown">
+    <Grid Width="500" Height="500" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Black">
+        <Button TabIndex="18" Content="DET A" HorizontalAlignment="Center" Margin="0,55,0,0" VerticalAlignment="Top" Click="Button_Click" Height="40" Width="100" FontSize="18" Background="#FF0735C5" Foreground="White" BorderBrush="#FF0735C5"/>
+        <Button TabIndex="21" Content="MULT" HorizontalAlignment="Center" Margin="0,205,0,0" VerticalAlignment="Top" Click="Button_Click_3" Width="100" Height="40" FontSize="18" Background="#FF0735C5" Foreground="White" BorderBrush="#FF0735C5"/>
+        <Button TabIndex="20" Content="SUMM" HorizontalAlignment="Center" Margin="0,155,0,0" VerticalAlignment="Top" Click="Button_Click_2" Width="100" Height="40" FontSize="18" Background="#FF0735C5" Foreground="White" BorderBrush="#FF0735C5"/>
+        <Button TabIndex="19" Content="DET B" HorizontalAlignment="Center" Margin="0,105,0,0" VerticalAlignment="Top" Click="Button_Click_1" Width="100" Height="40" FontSize="18" Background="#FF0735C5" Foreground="White" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="a_13" TabIndex="2" HorizontalAlignment="Left" Margin="125,75,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="a_23" HorizontalAlignment="Left" TabIndex="5" Margin="125,125,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="a_32" HorizontalAlignment="Left" TabIndex="7" Margin="75,175,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="a_22" HorizontalAlignment="Left" TabIndex="4" Margin="75,125,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="a_21" TabIndex="3" HorizontalAlignment="Left" Margin="25,125,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" Background="White" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="a_12" HorizontalAlignment="Left" TabIndex="1" Margin="75,75,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="a_31" HorizontalAlignment="Left" TabIndex="6" Margin="25,175,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="a_33" HorizontalAlignment="Left" TabIndex="8" Margin="125,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="b_11" TabIndex="9" HorizontalAlignment="Left" Margin="325,75,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" Background="White" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="b_12" TabIndex="10" HorizontalAlignment="Left" Margin="375,75,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="b_13" TabIndex="11" HorizontalAlignment="Left" Margin="425,75,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="b_21" TabIndex="12" HorizontalAlignment="Left" Margin="325,125,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="b_22" TabIndex="13" HorizontalAlignment="Left" Margin="375,125,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="b_23" TabIndex="14" HorizontalAlignment="Left" Margin="425,125,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="b_31" TabIndex="15" HorizontalAlignment="Left" Margin="325,175,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="b_32" TabIndex="16" HorizontalAlignment="Left" Margin="375,175,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" BorderBrush="#FF0735C5"/>
+        <TextBox x:Name="b_33" TabIndex="17" HorizontalAlignment="Left" Margin="425,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" BorderBrush="#FF0735C5"/>
+        <TextBlock x:Name="tb2" HorizontalAlignment="Right" Margin="0,303,250,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="50" Width="240" Background="Black" Foreground="White" FontSize="20" TextAlignment="Center" FontStyle="Normal"/>
+        <TextBlock x:Name="tb3" HorizontalAlignment="Right" Margin="0,353,250,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="75" Width="240" Background="Black" Foreground="White" TextAlignment="Center" FontSize="20"/>
+        <TextBlock x:Name="c_31" HorizontalAlignment="Left" Background="Black" Margin="300,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50" Foreground="White" FontSize="24" TextAlignment="Center"/>
+        <TextBlock x:Name="c_32" HorizontalAlignment="Left" Background="Black" Margin="350,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50" Foreground="White" FontSize="24" TextAlignment="Center"/>
+        <TextBlock x:Name="c_33" HorizontalAlignment="Left" Background="Black" Margin="400,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50" Foreground="White" FontSize="24" TextAlignment="Center"/>
+        <TextBlock x:Name="c_21" HorizontalAlignment="Left" Background="Black" Margin="300,328,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50" Foreground="White" FontSize="24" TextAlignment="Center"/>
+        <TextBlock x:Name="c_22" HorizontalAlignment="Left" Background="Black" Margin="350,328,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50" Foreground="White" FontSize="24" TextAlignment="Center"/>
+        <TextBlock x:Name="c_23" HorizontalAlignment="Left" Background="Black" Margin="400,328,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50" Foreground="White" FontSize="24" TextAlignment="Center"/>
+        <TextBlock x:Name="c_11" HorizontalAlignment="Left" Background="Black" Margin="300,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50" Foreground="White" FontSize="24" TextAlignment="Center"/>
+        <TextBlock x:Name="c_12" HorizontalAlignment="Left" Background="Black" Margin="350,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50" Foreground="White" FontSize="24" TextAlignment="Center"/>
+        <TextBlock x:Name="c_13" HorizontalAlignment="Left" Background="Black" Margin="400,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="50" Foreground="White" FontSize="24" TextAlignment="Center"/>
+
+        <Grid Name ="knopki" Margin="0,0,0,450">
+            <Image Name="off" Width="20" Height="20" Margin="475,30,5,0" RenderTransformOrigin="0.5,0.5" MouseDown="off_MouseDown">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+                <Image.Style>
+                    <Style TargetType="{x:Type Image}">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Source" Value="pic/sv_on.png"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="False">
+                                <Setter Property="Source" Value="pic/sv_off.png"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+                <Image.Effect>
+                    <BlurEffect Radius="2"/>
+                </Image.Effect>
+            </Image>
+            <Image Name="close" Width="20" Height="20" Margin="475,5,5,25" RenderTransformOrigin="0.5,0.5" MouseDown="close_MouseDown">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+                <Image.Style>
+                    <Style TargetType="{x:Type Image}">
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Source" Value="pic/vh_on.png"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="False">
+                                <Setter Property="Source" Value="pic/vh_off.png"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Image.Style>
+                <Image.Effect>
+                    <BlurEffect Radius="2"/>
+                </Image.Effect>
+            </Image>
+            <Rectangle HorizontalAlignment="Left" Height="50" Fill ="Transparent" Stroke="Black" VerticalAlignment="Top" Width="475" MouseDown="Rec_MouseDown"/>
+
+        </Grid>
+        <TextBox x:Name="a_11" HorizontalAlignment="Left" Margin="25,75,0,0" TextWrapping="Wrap" TabIndex="0" VerticalAlignment="Top" Width="50" Height="50" FontSize="20" TextAlignment="Center" BorderBrush="#FF0735C5"/>
+        <Button Content="CLEAR" HorizontalAlignment="Left" Margin="425,455,0,0" VerticalAlignment="Top" Height="35" Width="65" Background="#FF0735C5" BorderBrush="#FF0735C5" Foreground="White" Click="Button_Click_4"/>
+
+    </Grid>
+
+</Window>
